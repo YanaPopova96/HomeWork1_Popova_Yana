@@ -6,8 +6,8 @@ public class Main {
         int c = 3_456_234;
         long d = -2_456_234L;
         float e = 3.76f;
-        double f = 4.56743289;
-        char g = 45;
+        double f = 4.56743286789;
+        char g = 40;
         boolean h = false;
         System.out.println("переменная первого типа равна " +a);
         System.out.println("переменная второго типа равна " +b);
