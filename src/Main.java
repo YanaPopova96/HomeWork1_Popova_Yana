@@ -51,8 +51,22 @@ public class Main {
         System.out.println("Если каждый день терять по 500 гр, то на похудение уйдет "+daysLossWeight2+" дней");
         System.out.println("В среднем на похудение уйдет "+averageDaysLossWeight+" дней");
 
-
-
+        // Задание 5
+        int salaryMasha = 67_760;
+        int salaryDenis = 83_690;
+        int salaryKristina = 76_230;
+        float newSalaryMasha = salaryMasha * 1.1f;
+        float newSalaryDenis = salaryDenis * 1.1f;
+        float newSalaryKristina = salaryKristina * 1.1f;
+        float revenueMasha = salaryMasha * 12;
+        float revenueDenis = salaryDenis * 12;
+        float revenueKristina = salaryKristina * 12;
+        float newRevenueMasha = newSalaryMasha * 12;
+        float newRevenueDenis = newSalaryDenis * 12;
+        float newRevenueKristina = newSalaryKristina * 12;
+        System.out.println("Маша теперь получает " + newSalaryMasha + " рублей в месяц. Годовой доход вырос на " + (newRevenueMasha - revenueMasha) + " рублей.");
+        System.out.println("Денис теперь получает " + newSalaryDenis + " рублей в месяц. Годовой доход вырос на " + (newRevenueDenis - revenueDenis) + " рублей.");
+        System.out.println("Кристина теперь получает " + newSalaryKristina + " рублей в месяц. Годовой доход вырос на " + (newRevenueKristina - revenueKristina) + " рублей.");
 
     }
 }
